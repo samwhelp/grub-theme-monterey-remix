@@ -1,0 +1,92 @@
+
+
+desktop-image: "background.jpg"
+
+
+title-text:" "
+message-font: "Poppins Regular 14"
+message-color: "#757575"
+
+
+terminal-font: "Unifont Regular 16"
+terminal-box: "asset/terminal-box/terminal-box-*.png"
+terminal-left: "10%"
+terminal-top: "10%"
+terminal-width: "80%"
+terminal-height: "80%"
+terminal-border: "0"
+
+
+
+
+#+ image {
+#	top = 12%
+#	left = 50%-80
+#	width = 160
+#	height = 40
+#	file = "asset/info/logo.png"
+#}
+
+
+
+
++ label {
+	text = "select your preferred os"
+	font = "Poppins Regular 16"
+	color = "#F3F3F3"
+	top = 30%-30
+	left = 50%-80
+	align = "center"
+	width = 160
+	height = 40
+}
+
+
+
+
++ boot_menu {
+	left = 25%
+	width = 50%
+	top = 30%
+	height = 40%
+	icon_width = 32
+	icon_height =32
+	item_height = 48
+	item_padding = 8
+	item_icon_space = 12
+	item_spacing = 8
+	menu_pixmap_style = "asset/menu-box/menu-box-*.png"
+	item_font = "Poppins Regular 18"
+	item_color = "#EDEDED"
+	selected_item_color= "#DDDDDD"
+	selected_item_pixmap_style= "asset/menu-selected/menu-selected-*.png"
+	scrollbar = true
+	scrollbar_width = 12
+	scrollbar_thumb = "asset/menu-slider/menu-slider-*.png"
+}
+
+
+
+
++ progress_bar {
+	id = "__timeout__"
+	left = 0%
+	width = 100%
+	top = 100%
+	height = 23
+	show_text = true
+	text_color = "255, 255, 255"
+	bar_style = "asset/progress-box/progress-box-*.png"
+	highlight_style = "asset/progress-bar/progress-bar-*.png"
+}
+
+
+
+
++ image {
+	top = 80%+47
+	left = 50%-240
+	width = 480
+	height = 42
+	file = "asset/info/tips.png"
+}
