@@ -28,7 +28,8 @@
 | Theme Source |
 | ------ |
 | [Pling](https://www.pling.com/p/1577873/) |
-| [GitHub](https://github.com/sandesh236/monterey-grub-theme) |
+| GitHub / sandesh236 / [monterey-grub-theme](https://github.com/sandesh236/monterey-grub-theme) |
+| [grub-theme-monterey-refactoring](https://github.com/samwhelp/grub-theme-monterey-refactoring) |
 
 
 
